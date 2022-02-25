@@ -1,0 +1,55 @@
+body {
+    background-color: #04D8D3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #039997, #05E6E2);
+    text-align: center;
+    min-height: 150px;
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px 7px black;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+main > h2 {
+    color: #039997;
+    font-weight: bold;
+}
+
+.Contato {
+    background-color: white;
+    text-align: left;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+.Contato > h2 {
+    text-align: center;
+}
+
+.Contato  a {
+    text-decoration: none;
+    color: blue;
+}
+
+.Contato a:hover {
+    text-decoration: underline;
+}
